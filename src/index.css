@@ -1,0 +1,32 @@
+/* Gaya untuk elemen thumb (scrollbar handle) */
+/* WebKit Browsers (Google Chrome, Safari) */
+::-webkit-scrollbar-thumb {
+  background-color: #888888;
+  border-radius: 5px;
+}
+
+/* Firefox Browsers */
+/* Hati-hati: Kode ini hanya akan berfungsi di peramban Firefox, bukan di WebKit Browsers */
+/* Untuk WebKit Browsers, gunakan kode di atas. */
+* {
+  scrollbar-color: #fff;
+}
+
+/* Gaya untuk elemen track (background scrollbar) */
+/* WebKit Browsers (Google Chrome, Safari) */
+::-webkit-scrollbar-track {
+  background-color: #f0f0f0;
+}
+
+/* Firefox Browsers */
+/* Hati-hati: Kode ini hanya akan berfungsi di peramban Firefox, bukan di WebKit Browsers */
+/* Untuk WebKit Browsers, gunakan kode di atas. */
+* {
+  scrollbar-color: #f0f0f0 #f0f0f0;
+}
+
+/* Gaya untuk elemen corner (sudut scrollbar) */
+/* WebKit Browsers (Google Chrome, Safari) */
+::-webkit-scrollbar-corner {
+  background-color: #f0f0f0;
+}

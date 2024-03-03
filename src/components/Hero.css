@@ -1,0 +1,48 @@
+.container{
+    
+    height:100vh;
+    display:flex;
+    width:auto;
+}
+.hero-text{
+  
+    display:flex;
+    flex-direction:column;
+    max-width:500px;
+    margin:5% 11%;
+}
+.hero-text h1{
+    font-size:63px;
+    max-width:350px;
+    margin-bottom:5px;
+    color: rgb(21, 214, 214);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hero-text h2{
+    font-size:40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width:400px;
+    margin-bottom:45px;
+}
+.hero-text button{
+    width:130px;
+    height:45px;
+    border-radius:5px;
+    border:none;
+    cursor:pointer;
+    font-weight:bold;
+    font-size:15px;
+    background-color: rgb(21, 214, 214);
+    color:white;
+}
+.hero-text button:hover{
+    background-color:rgb(24, 60, 158);
+    transition: ease-in-out 0.2s;
+
+}
+img{
+
+    height:600px;
+    width:700px;
+    margin:5%;
+}
